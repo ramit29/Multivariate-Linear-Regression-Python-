@@ -1,10 +1,9 @@
 from __future__ import division
 import numpy as np
-import random
 import matplotlib.pyplot as plt
 from pylab import plot, show, xlabel, ylabel
 from mpl_toolkits.mplot3d import Axes3D
-import time
+
 
 def gradientDescent(x, y, theta, alpha, m, numIterations):
     J_history = np.zeros(shape=(numIterations, 1))
